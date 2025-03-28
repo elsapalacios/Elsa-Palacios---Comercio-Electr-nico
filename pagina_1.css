@@ -1,0 +1,93 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #1a1a2e; Azul oscuro tecnológico */
+    background: url("../CSS/Fondo_2.png") no-repeat center center fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #16213e; /* Azul más claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+    text-align: center;
+    width: 50%;
+}
+
+/* Estilo del título */
+h1 {
+    color: white; /* Título en blanco */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Formularios y etiquetas */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Select y inputs */
+select, input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0f3460;
+    border-radius: 5px;
+    background-color: #0f3460;
+    color: white;
+}
+
+/* Botón */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #008c9e;
+}
+
+/* Estilo para los campos adicionales */
+.fields {
+    display: none;
+    flex-direction: column;  /* Asegura que cada input esté debajo del label */
+    width: 100%;
+}
+
+#ActualizarStockFields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Estilo para mostrar los resultados */
+.resultados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0f3460;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
+}

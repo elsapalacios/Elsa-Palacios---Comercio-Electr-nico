@@ -1,0 +1,52 @@
+/* Importar fuente elegante */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url("../CSS/Fondo_1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Recuadro con fondo blur */
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Transparencia */
+    backdrop-filter: blur(10px); /* Desenfoque */
+    border-radius: 15px;
+    padding: 50px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/* Botones elegantes con bordes */
+.btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
